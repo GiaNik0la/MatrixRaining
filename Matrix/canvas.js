@@ -48,7 +48,7 @@ class Manager {
 const manager = new Manager(canvas.width, canvas.height)
 
 function animate() {
-    ctx.fillStyle = `rgba(0, 0, 0, 0.1)`
+    ctx.fillStyle = `rgba(0, 0, 0, 0.06)`
     ctx.fillRect(0, 0, canvas.width, canvas.height)
     ctx.font = manager.fontSize + 'px monospace'
     manager.symbols.forEach(symbol => symbol.draw(ctx))
